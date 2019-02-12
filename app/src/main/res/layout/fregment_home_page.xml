@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_8_dp"
+        android:layout_marginTop="@dimen/margin_8_dp"
+        android:layout_marginEnd="@dimen/margin_8_dp"
+        android:layout_marginBottom="@dimen/margin_8_dp"
+        android:background="@drawable/button_shape"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/START_SURVEY"
+        android:textAllCaps="false"
+        android:textColor="@color/button_color"
+        android:textSize="@dimen/text_size_20_sp"
+        app:layout_constraintBottom_toTopOf="@+id/response_heading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/response_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/heading_background"
+        android:padding="@dimen/padding_10dp"
+        android:paddingLeft="@dimen/padding_10dp"
+        android:text="@string/RESPONSE"
+        android:textSize="@dimen/text_size_20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/surveyrecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/surveyrecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_350dp"
+        android:background="@color/recyclerview_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/empty_response"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_350dp"
+        android:layout_marginTop="@dimen/margin_8_dp"
+        android:layout_marginBottom="@dimen/margin_8_dp"
+        android:gravity="center"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/no_responses"
+        android:textSize="@dimen/text_size_20sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/response_heading"
+        app:layout_constraintVertical_bias="0.13999999" />
+</android.support.constraint.ConstraintLayout>

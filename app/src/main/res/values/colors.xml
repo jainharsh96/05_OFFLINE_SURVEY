@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#00B0FF</color>
+    <color name="button_background">#40C4FF</color>
+    <color name="button_color">#FFFFFF</color>
+    <color name="heading_background">#E0E0E0</color>
+    <color name="recyclerview_background">#F5F5F5</color>
+    <color name="line_color">#E0E0E0</color>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">OfflineSurvey</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="type_input">input</string>
+    <string name="select">select</string>
+    <string name="questions">questions</string>
+    <string name="required">*required</string>
+    <string name="form_response">Response_</string>
+    <string name="save">save</string>
+    <string name="required_msg">This field is mandatory</string>
+    <string name="ERROR_IN_FILE_REPORT">error in FILE</string>
+    <string name="ERROR_IN_IO_REPORT">error in IO</string>
+    <string name="START_SURVEY">Start Mentor Feedback Survey</string>
+    <string name="RESPONSE">Survey Responses</string>
+    <string name="export">Export Data</string>
+    <string name="SAVED">File Successfully Saved to:_</string>
+    <string name="survey_finished">Survey Finished</string>
+    <string name="go_to_the_home_page">Go to the home page</string>
+    <string name="save_and_exit">Save and Exit</string>
+    <string name="you_are_at_the_end_of_the_survey">You are at the end of the survey</string>
+    <string name="ALLOW_PERMISSION">First Allow Permission</string>
+    <string name="alert">Alert</string>
+    <string name="close_question_screen_massege">Are you sure want to close this survey?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="questions_title">Questions</string>
+    <string name="FILL_FORM_MSG">Fill at lest 1 Form</string>
+    <string name="DEVICE_UUID">device UUID is :</string>
+    <string name="ABOUT_APP_TITLE">About App :</string>
+    <string name="response">_FormResponse_</string>
+    <string name="no_responses">No Responses</string>
+    <string name="file_create_notification">File save notification</string>
+    <string name="notify_file_path">notifying about file location</string>
+    <string name="hint_ans">Write here…</string>
+    <string name="FILE_SAVE_MSG">File Saved successfully</string>
+    <string name="open">Open it_</string>
+    <string name="ABOUT_APP_MESSAGE"> 1) This is a survey app, which take the Survey in No internet zone. \n
+        2) It help the surveyor to collect information easily. \n\n
+        Feature - \n\n
+        1) Conduct survey in Offline.\n
+        2) Export survey responses data into SD card</string>UP
+    <string name="NOT_FILLED">Not Filled</string>
+    <string name="FILLED">Saved</string>
+    <string name="NOT_IMPLEMENTED">Not yet implemented</string>
+    <string name="QUESTION_FORM">MENTOR_FEEDBACK_FORM.json</string>
+    <string name="provider">.provider</string>
+    <string name="FORM_FILLED">Feedback already saved</string>
+    <string name="FILE_EXTENSION">.json</string>
+    <string name="error_msg">Error in Writing:</string>
+</resources>

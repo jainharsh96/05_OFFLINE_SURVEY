@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_question_name" type="id"/>
+    <item name="et_input_type_text" type="id"/>
+    <item name="rd_group_select" type="id"/>
+</resources>

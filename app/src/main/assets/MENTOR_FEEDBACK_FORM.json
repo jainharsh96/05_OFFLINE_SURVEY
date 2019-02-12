@@ -1,0 +1,374 @@
+[
+  {
+    "text": "Mentor Name",
+    "id": "Mentor_name",
+    "type": "select",
+    "required": true,
+    "options": [
+      {
+        "label": "Ashok Kumar Guju",
+        "value": "Ashok Kumar Guju"
+      },
+      {
+        "label": "Sachin MK",
+        "value": "Sachin MK"
+      },
+      {
+        "label": "Nitesh Sharma",
+        "value": "Nitesh Sharma"
+      },
+      {
+        "label": "Himanshu Mukat",
+        "value": "Himanshu Mukat"
+      },
+      {
+        "label": "Santu Mahapatra",
+        "value": "Santu Mahapatra"
+      }
+    ]
+  },
+  {
+    "text": "Your course",
+    "id": "course",
+    "type": "select",
+    "required": true,
+    "options": [
+      {
+        "label": "Android development",
+        "value": "Android"
+      },
+      {
+        "label": "Python web development",
+        "value": "Python"
+      },
+      {
+        "label": "Javascript web development",
+        "value": "JScript"
+      },
+      {
+        "label": "NodeJS web development",
+        "value": "NodeJS"
+      }
+    ]
+  },
+  {
+    "text": "How would you rate their mentoring skill?",
+    "id": "M_skill",
+    "type": "select",
+    "required": false,
+    "options": [
+      {
+        "label": "Exceeded my expectations",
+        "value": "1"
+      },
+      {
+        "label": "Met all of my expectations",
+        "value": "2"
+      },
+      {
+        "label": "Met most of my expectations",
+        "value": "3"
+      },
+       {
+        "label": "Met some of my expectations",
+        "value": "4"
+      },
+      {
+        "label": "Did not meet my expectations",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "text": "How well-prepared your mentor used to be for each class?",
+    "id": "M_prepare_for_class",
+    "type": "select",
+    "required": false,
+    "options": [
+      {
+        "label": "Excellent",
+        "value": "1"
+      },
+      {
+        "label": "Good",
+        "value": "2"
+      },
+      {
+        "label": "Mediocre",
+        "value": "3"
+      },
+       {
+        "label": "Average",
+        "value": "4"
+      },
+      {
+        "label": "Poor",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "text": "How often the mentor participated in class discussion?",
+    "id": "M_participation_in_class",
+    "type": "select",
+    "required": false,
+    "options": [
+      {
+        "label": "Always",
+        "value": "1"
+      },
+      {
+        "label": "More often",
+        "value": "2"
+      },
+      {
+        "label": "Sometime",
+        "value": "3"
+      },
+       {
+        "label": "Rarely",
+        "value": "4"
+      },
+      {
+        "label": "Never",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "text": "How often your doubts were cleared  by your mentor?",
+    "id": "M_clearify",
+    "type": "select",
+    "required": false,
+    "options": [
+      {
+        "label": "Always",
+        "value": "1"
+      },
+      {
+        "label": "More often",
+        "value": "2"
+      },
+      {
+        "label": "Sometimes",
+        "value": "3"
+      },
+       {
+        "label": "Rarely",
+        "value": "4"
+      },
+      {
+        "label": "Never",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "text": "How is your mentor's communication skill?",
+    "id": "M_comm_skill",
+    "type": "select",
+    "required": false,
+   "options": [
+      {
+        "label": "Excellent",
+        "value": "1"
+      },
+      {
+        "label": "Good",
+        "value": "2"
+      },
+      {
+        "label": "Mediocre",
+        "value": "3"
+      },
+       {
+        "label": "Average",
+        "value": "4"
+      },
+      {
+        "label": "Poor",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "text": "How often your mentor encouraged you to achieve your tasks/goals?",
+    "id": "M_encourage",
+    "type": "select",
+    "required": false,
+    "options": [
+      {
+        "label": "Always",
+        "value": "1"
+      },
+      {
+        "label": "More often",
+        "value": "2"
+      },
+      {
+        "label": "Sometimes",
+        "value": "3"
+      },
+       {
+        "label": "Rarely",
+        "value": "4"
+      },
+      {
+        "label": "Never",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "text": "How effective was your relationship with your mentor? ",
+    "id": "M_relation",
+    "type": "select",
+    "required": false,
+     "options": [
+      {
+        "label": "Excellent",
+        "value": "1"
+      },
+      {
+        "label": "Good",
+        "value": "2"
+      },
+      {
+        "label": "Mediocre",
+        "value": "3"
+      },
+       {
+        "label": "Average",
+        "value": "4"
+      },
+      {
+        "label": "Poor",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "text": "How effectively the topics were explained by the mentor?",
+    "id": "M_topic_cover",
+    "type": "select",
+    "required": false,
+    "options": [
+      {
+        "label": "Excellent",
+        "value": "1"
+      },
+      {
+        "label": "Good",
+        "value": "2"
+      },
+      {
+        "label": "Mediocre",
+        "value": "3"
+      },
+       {
+        "label": "Average",
+        "value": "4"
+      },
+      {
+        "label": "Poor",
+        "value": "5"
+      }
+    ]
+  },
+  {
+    "text": "How often was your mentor punctual?",
+    "id": "M_punctual",
+    "type": "select",
+    "required": true,
+    "options": [
+      {
+        "label": "Always",
+        "value": "1"
+      },
+      {
+        "label": "Most of the times",
+        "value": "2"
+      },
+      {
+        "label": "Sometimes",
+        "value": "3"
+      },
+       {
+        "label": "Very few times",
+        "value": "4"
+      },
+      {
+        "label": "Never",
+        "value": "5"
+      }
+    ]
+  },
+   {
+    "text": "How well-behaved is your mentor with the trainees?",
+    "id": "M_behave",
+    "type": "select",
+    "required": true,
+    "options": [
+      {
+        "label": "Excellent",
+        "value": "1"
+      },
+      {
+        "label": "Good",
+        "value": "2"
+      },
+      {
+        "label": "Mediocre",
+        "value": "3"
+      },
+       {
+        "label": "Average",
+        "value": "4"
+      },
+      {
+        "label": "Poor",
+        "value": "5"
+      }
+    ]
+  },
+   {
+    "text": "Give overall rating to your mentor",
+    "id": "M_rating",
+    "type": "select",
+    "required": true,
+     "options": [
+       {
+         "label": "Excellent",
+         "value": "1"
+       },
+       {
+         "label": "Good",
+         "value": "2"
+       },
+       {
+         "label": "Mediocre",
+         "value": "3"
+       },
+       {
+         "label": "Average",
+         "value": "4"
+       },
+       {
+         "label": "Poor",
+         "value": "5"
+       }
+     ]
+  },
+   {
+    "text": "What did you like the most about your mentor during the bootcamp?",
+    "id": "M_feedback",
+    "type": "input",
+    "required": false
+  },
+   {
+    "text": "What skills do you think your mentor needs to improve?",
+    "id": "M_improvement",
+    "type": "input",
+    "required": false
+  }
+]

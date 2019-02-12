@@ -1,0 +1,86 @@
+[
+  {
+    "text": "Name",
+    "id": "name",
+    "type": "input",
+    "required": true
+  },
+  {
+    "text": "Gender",
+    "id": "gender",
+    "type": "select",
+    "required": false,
+    "options": [
+      {
+        "label": "Male",
+        "value": "1"
+      },
+      {
+        "label": "Female",
+        "value": "2"
+      }
+    ]
+  },
+  {
+    "text": "Select all fruits",
+    "id": "fruits",
+    "type": "multiple",
+    "required": false,
+    "options": [
+      {
+        "label": "Apple",
+        "value": "1"
+      },
+      {
+        "label": "Mango",
+        "value": "2"
+      },
+      {
+        "label": "Jasmine",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "text": "Address",
+    "id": "address",
+    "type": "input",
+    "required": true
+  },
+  {
+    "text": "Select any option",
+    "id": "selectoption",
+    "type": "select",
+    "required": true,
+    "options": [
+      {
+        "label": "option1",
+        "value": "1"
+      },
+      {
+        "label": "option2",
+        "value": "2"
+      },
+      {
+        "label": "option3",
+        "value": "3"
+      }
+    ]
+  },
+  {
+    "text": "Select all cars",
+    "id": "cars",
+    "type": "multiple",
+    "required": false,
+    "options": [
+      {
+        "label": "BMW",
+        "value": "1"
+      },
+      {
+        "label": "AUDY",
+        "value": "2"
+      }
+    ]
+  }
+]
